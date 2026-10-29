@@ -1,0 +1,102 @@
+<!ELEMENT Etapa (nombre, numero, datosCircuito, datosParticipantes, ReferenciasLocalidades, fotografias, videos, audios, lugares, hitos, puntosAnonimos)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+
+<!ELEMENT datosCircuito (distancia, fecha, desnivel, tipo, Empieza, Acaba)>
+<!ELEMENT distancia (#PCDATA)>
+<!ATTLIST distancia unidades CDATA #REQUIRED>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT desnivel (#PCDATA)>
+<!ATTLIST desnivel unidades CDATA #IMPLIED>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT Empieza (#PCDATA)>
+<!ELEMENT Acaba (#PCDATA)>
+
+<!ELEMENT datosParticipantes (tiempoGanador, velocidadMedia, lideresCarrera, lideresGeneral, lideresEquipos)>
+<!ELEMENT tiempoGanador (#PCDATA)>
+<!ELEMENT velocidadMedia (#PCDATA)>
+<!ATTLIST velocidadMedia unidades CDATA #IMPLIED>
+
+<!ELEMENT lideresCarrera (primero, segundo, tercero, tiempoEntrePrimero-segundo, tiempoEntrePrimero-tercero)>
+<!ELEMENT lideresGeneral (primero, segundo, tercero, tiempoEntrePrimero-segundo, tiempoEntrePrimero-tercero)>
+<!ELEMENT lideresEquipos (primero, segundo, tercero, tiempoEntrePrimero-segundo, tiempoEntrePrimero-tercero)>
+
+<!ELEMENT primero (#PCDATA)>
+<!ELEMENT segundo (#PCDATA)>
+<!ELEMENT tercero (#PCDATA)>
+<!ELEMENT tiempoEntrePrimero-segundo (#PCDATA)>
+<!ELEMENT tiempoEntrePrimero-tercero (#PCDATA)>
+
+<!ELEMENT ReferenciasLocalidades (ref+)>
+<!ELEMENT ref (#PCDATA)>
+
+<!ELEMENT fotografias (foto+)>
+<!ELEMENT foto (#PCDATA)>
+
+<!ELEMENT videos (video+)>
+<!ELEMENT video (#PCDATA)>
+
+<!ELEMENT audios (audio+)>
+<!ELEMENT audio (#PCDATA)>
+
+<!ELEMENT lugares (salidaLong, salidaLat, salidaAlt, llegadaLong, llegadaLat, llegadaAlt)>
+<!ELEMENT salidaLong (#PCDATA)>
+<!ATTLIST salidaLong unidades CDATA #REQUIRED>
+<!ELEMENT salidaLat (#PCDATA)>
+<!ATTLIST salidaLat unidades CDATA #REQUIRED>
+<!ELEMENT salidaAlt (#PCDATA)>
+<!ATTLIST salidaAlt unidades CDATA #REQUIRED>
+
+<!ELEMENT llegadaLong (#PCDATA)>
+<!ATTLIST llegadaLong unidades CDATA #REQUIRED>
+<!ELEMENT llegadaLat (#PCDATA)>
+<!ATTLIST llegadaLat unidades CDATA #REQUIRED>
+<!ELEMENT llegadaAlt (#PCDATA)>
+<!ATTLIST llegadaAlt unidades CDATA #REQUIRED>
+
+<!ELEMENT hitos (puertosMontaña, Sprints)>
+<!ELEMENT puertosMontaña (categoria1, categoria3)>
+
+<!ELEMENT categoria1 (montaña, montañaLong, montañaLat, montañaAlt, montañadist)+>
+<!ELEMENT categoria3 (montaña, montañaLong, montañaLat, montañaAlt, montañadist)+>
+
+<!ELEMENT montaña (#PCDATA)>
+<!ELEMENT montañaLong (#PCDATA)>
+<!ATTLIST montañaLong unidades CDATA #REQUIRED>
+<!ELEMENT montañaLat (#PCDATA)>
+<!ATTLIST montañaLat unidades CDATA #REQUIRED>
+<!ELEMENT montañaAlt (#PCDATA)>
+<!ATTLIST montañaAlt unidades CDATA #REQUIRED>
+<!ELEMENT montañadist (#PCDATA)>
+<!ATTLIST montañadist unidades CDATA #REQUIRED>
+
+<!ELEMENT Sprints (intermedios)>
+<!ELEMENT intermedios (sprint, sprintLong, sprintLat, sprintAlt, sprintdist)+>
+
+<!ELEMENT sprint (#PCDATA)>
+<!ELEMENT sprintLong (#PCDATA)>
+<!ATTLIST sprintLong unidades CDATA #REQUIRED>
+<!ELEMENT sprintLat (#PCDATA)>
+<!ATTLIST sprintLat unidades CDATA #REQUIRED>
+<!ELEMENT sprintAlt (#PCDATA)>
+<!ATTLIST sprintAlt unidades CDATA #REQUIRED>
+<!ELEMENT sprintdist (#PCDATA)>
+<!ATTLIST sprintdist unidades CDATA #REQUIRED>
+
+<!-- Estructura simplificada y escalable para Puntos Anónimos -->
+<!ELEMENT puntosAnonimos (punto+)>
+<!ELEMENT punto (longitud, latitud, altitud, distanciaPunto)>
+<!ATTLIST punto id CDATA #IMPLIED>
+
+<!ELEMENT longitud (#PCDATA)>
+<!ATTLIST longitud unidades CDATA #REQUIRED>
+
+<!ELEMENT latitud (#PCDATA)>
+<!ATTLIST latitud unidades CDATA #REQUIRED>
+
+<!ELEMENT altitud (#PCDATA)>
+<!ATTLIST altitud unidades CDATA #REQUIRED>
+
+<!ELEMENT distanciaPunto (#PCDATA)>
+<!ATTLIST distanciaPunto unidades CDATA #REQUIRED>

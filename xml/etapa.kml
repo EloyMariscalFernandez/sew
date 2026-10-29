@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Etapa 4: Andorra la Vella a Andorra la Vella</name>
+<Style id="estiloRojo">
+<IconStyle>
+<scale>1.2</scale>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href></Icon>
+<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+</Style>
+<Style id="estiloVerde">
+<IconStyle>
+<scale>1.2</scale>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href></Icon>
+<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+</Style>
+<Style id="estiloAzul">
+<IconStyle>
+<scale>1.2</scale>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon>
+<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+</Style>
+<Style id="estiloAmarillo">
+<IconStyle>
+<scale>1.2</scale>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href></Icon>
+<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+</Style>
+<Style id="lineaEtapa">
+<LineStyle>
+<color>ff0000ff</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Placemark>
+<name>Salida</name>
+<description>Andorra la Vella</description>
+<styleUrl>#estiloRojo</styleUrl>
+<Point>
+<coordinates>1.521750,42.505028,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Meta</name>
+<description>Andorra la Vella</description>
+<styleUrl>#estiloRojo</styleUrl>
+<Point>
+<coordinates>1.521750,42.505028,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Por D'envalira</name>
+<description>Puerto de montaña (categoria1)</description>
+<styleUrl>#estiloVerde</styleUrl>
+<Point>
+<coordinates>1.719380,42.540180,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Collada de Beixalis</name>
+<description>Puerto de montaña (categoria1)</description>
+<styleUrl>#estiloVerde</styleUrl>
+<Point>
+<coordinates>1.547910,42.527750,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Col de ordino</name>
+<description>Puerto de montaña (categoria1)</description>
+<styleUrl>#estiloVerde</styleUrl>
+<Point>
+<coordinates>1.572205,42.556112,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>La coella</name>
+<description>Puerto de montaña (categoria3)</description>
+<styleUrl>#estiloVerde</styleUrl>
+<Point>
+<coordinates>1.531456,42.500705,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Ordino</name>
+<description>Sprint intermedio</description>
+<styleUrl>#estiloAzul</styleUrl>
+<Point>
+<coordinates>1.533190,42.556230,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 1</name>
+<description>Punto anónimo a 2.800 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.574800,42.539900,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 2</name>
+<description>Punto anónimo a 4.300 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.600700,42.547800,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 3</name>
+<description>Punto anónimo a 5.100 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.590640,42.553630,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 4</name>
+<description>Punto anónimo a 6.000 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.593660,42.560560,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 5</name>
+<description>Punto anónimo a 10.200 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.625800,42.579700,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 6</name>
+<description>Punto anónimo a 13.200 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.649700,42.580330,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 7</name>
+<description>Punto anónimo a 14.400 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.658900,42.578400,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 8</name>
+<description>Punto anónimo a 18.000 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.680900,42.567800,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 9</name>
+<description>Punto anónimo a 20.200 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.684900,42.559970,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 10</name>
+<description>Punto anónimo a 23.000 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.701320,42.532270,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 11</name>
+<description>Punto anónimo a 27.000 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.727900,42.542300,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 12</name>
+<description>Punto anónimo a 31.100 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.726000,42.537600,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 13</name>
+<description>Punto anónimo a 34.000 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.707500,42.552300,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 14</name>
+<description>Punto anónimo a 36.800 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.683200,42.570800,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 15</name>
+<description>Punto anónimo a 41.000 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.649700,42.580330,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 16</name>
+<description>Punto anónimo a 46.000 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.658300,42.583300,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 17</name>
+<description>Punto anónimo a 48.500 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.612800,42.555400,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 18</name>
+<description>Punto anónimo a 52.100 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.571900,42.532700,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 19</name>
+<description>Punto anónimo a 54.400 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.562900,42.532700,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 20</name>
+<description>Punto anónimo a 63.000 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.535700,42.535300,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 21</name>
+<description>Punto anónimo a 67.000 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.522820,42.543680,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 22</name>
+<description>Punto anónimo a 72.000 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.546500,42.556800,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 23</name>
+<description>Punto anónimo a 75.500 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.561500,42.557500,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 24</name>
+<description>Punto anónimo a 83.000 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.601800,42.570500,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 25</name>
+<description>Punto anónimo a 87.600 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.637500,42.584000,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 26</name>
+<description>Punto anónimo a 94.400 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.552900,42.512500,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 27</name>
+<description>Punto anónimo a 97.300 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.530600,42.503800,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 28</name>
+<description>Punto anónimo a 102.000 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.538500,42.505800,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 29</name>
+<description>Punto anónimo a 103.400 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.548500,42.510900,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Punto 30</name>
+<description>Punto anónimo a 104.400 km de la salida</description>
+<styleUrl>#estiloAmarillo</styleUrl>
+<Point>
+<coordinates>1.551500,42.512500,0</coordinates>
+<altitudeMode>clampToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+<name>Recorrido de la etapa</name>
+<styleUrl>#lineaEtapa</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>
+1.521750,42.505028,0
+1.574800,42.539900,0
+1.600700,42.547800,0
+1.590640,42.553630,0
+1.593660,42.560560,0
+1.625800,42.579700,0
+1.649700,42.580330,0
+1.658900,42.578400,0
+1.680900,42.567800,0
+1.684900,42.559970,0
+1.701320,42.532270,0
+1.727900,42.542300,0
+1.726000,42.537600,0
+1.707500,42.552300,0
+1.683200,42.570800,0
+1.649700,42.580330,0
+1.658300,42.583300,0
+1.612800,42.555400,0
+1.571900,42.532700,0
+1.562900,42.532700,0
+1.535700,42.535300,0
+1.522820,42.543680,0
+1.546500,42.556800,0
+1.561500,42.557500,0
+1.601800,42.570500,0
+1.637500,42.584000,0
+1.552900,42.512500,0
+1.530600,42.503800,0
+1.538500,42.505800,0
+1.548500,42.510900,0
+1.551500,42.512500,0
+1.521750,42.505028,0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+</kml>
