@@ -9,6 +9,8 @@
 /*  Grupo de laboratorio:1                */
 /* ***************************************/
 
+
+/* Especificidad: 0,0,2 */
 section:has(picture){
     /*Sector de la imagen del ciclista y datos personales del mismo*/
     display:flex;
@@ -16,19 +18,23 @@ section:has(picture){
     align-items: center;
 }
 
+/* Especificidad: 0,0,3 */
 section:has(picture) h3{
     flex-basis: 100%;
 }
 
+/* Especificidad: 0,0,3 */
 section:has(picture) picture{
     order: 0;
 }
 
+/* Especificidad: 0,0,3 */
 section:has(picture) ul{
     order:1;
     list-style: none;
 }
 
+/* Especificidad: 0,0,2 */
 section:has(video){
     /*Sector de multimedia del ciclista*/
     display:flex;
@@ -36,6 +42,7 @@ section:has(video){
     align-items: flex-start;
 }
 
+/* Especificidad: 0,0,2 */
 section:has(article){
     /*Modificacion de las fichas de equipo*/
     display: grid;
@@ -45,11 +52,12 @@ section:has(article){
     gap: 1em;
 }
 
-
+/* Especificidad: 0,0,3 */
 section:has(article) h3{
     grid-column: span 4;
 }
 
+/* Especificidad: 0,0,1 */
 body{
     /*Estructura general de body*/
     margin:0;
@@ -63,6 +71,7 @@ body{
     grid-template-columns: 1fr;
 }
 
+/* Especificidad: 0,0,1 */
 header{
     /*Especialidad de la cabecera*/
     display: flex;
@@ -71,14 +80,17 @@ header{
     grid-area: cabecera;
 }
 
+/* Especificidad: 0,0,1 */
 nav{
     grid-area: migas;
 }
 
+/* Especificidad: 0,0,1 */
 main{
     grid-area: contenido;
 }
 
+/* Especificidad: 0,0,1 */
 footer{
     /*Especialidad del pie de pagina*/
     display: flex;
@@ -88,12 +100,14 @@ footer{
     grid-area: pie;
 }
 
+/* Especificidad: 0,0,1 */
 table {
     /*Modificacion visual de la tabla*/
     border-collapse: collapse;
     width: auto;
 }
 
+/* Especificidad: 0,0,1 */
 th,
 td {
     /*añadir las celdas*/
@@ -101,6 +115,7 @@ td {
     padding: 2px 8px;
 }
 
+/* Especificidad: 0,0,1 */
 th {
     /*Posicionar bien los elementos*/
     text-align: left;
@@ -108,13 +123,15 @@ th {
 }
 
 @media screen and (max-width: 1024px){
-
+    /* Especificidad: 0,0,1 */
     header{
         /* Cabecera en columna */
+        /* ADVERTENCIA: redefinición de la propiedad con valor original space-between */
         flex-direction: column;
         justify-content: center;
     }
 
+    /* Especificidad: 0,0,2 */
     header nav{
         /* Menú debajo del título */
         display: flex;
@@ -123,22 +140,50 @@ th {
         justify-content: space-evenly;
     }
 
+    /* Especificidad: 0,1,1 */
     nav[aria-label="migas"]{
          /* Ocultar migas */
         display: none;
     }
 
-    
+    /* Especificidad: 0,0,2 */   
     section:has(article){
         /* Cuadrícula de corredores*/
+        /* ADVERTENCIA: redefinición de la propiedad con valor original repeat(4, 1fr) */
         grid-template-columns: repeat(2, 1fr);
     }
 
+    /* Especificidad: 0,0,3 */
     section:has(article) h3{
         /*Título */
+        /* ADVERTENCIA: redefinición de la propiedad con valor original span 4 */
         grid-column: span 2;
     }
 }
+
+@media screen and (max-width: 768px){
+
+    /* Especificidad: 0,0,2 */
+    header nav{
+        /* Menú en vertical */
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5em;
+    }
+
+    /* Especificidad: 0,0,2 */
+    section:has(article){
+        /* Una sola columna para las fichas */
+        grid-template-columns: 1fr;
+    }
+
+    /* Especificidad: 0,0,3 */
+    section:has(article) h3{
+        grid-column: span 1;
+    }
+}
+
+
 
 
 

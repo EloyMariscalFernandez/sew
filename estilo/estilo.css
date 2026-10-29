@@ -82,45 +82,57 @@ header a, footer a{
     header y footer --color-primario */
     text-decoration-line: none;
 }
-
+/* Especificidad: 0,0,1 */
 h1{
     color: var(--color-secundario); /* ADVERTENCIA: color de fondo heredado de
     header y footer --color-primario */
 }
 
+/* Especificidad: 0,1,0 */
 [aria-current="page"] {
 background-color: var(--color-secundario);
 color: var(--color-principal);
 }
 
+/* Especificidad: 0,1,2 */
 [aria-label="migas"] > ol > li{
     display: inline;
 }
+
+/* Especificidad: 0,1,1 */
 [aria-label="migas"] ol{
     font-size: 13px;
     list-style-type: none;
     color:var(--color-blanco); /* ADVERTENCIA: color de fondo heredado de
     header y footer --color-primario */
 }
+
+/* Especificidad: 0,1,2 */
 [aria-label="migas"] ol a{
     color:var(--color-blanco); /* ADVERTENCIA: color de fondo heredado de
     header y footer --color-primario */
 }
+
+/* Especificidad: 0,2,1 */
 [aria-label="migas"] li:last-child{
     font-weight: bolder;
 }
 
+/* Especificidad: 0,1,4 */
 section:has(picture) ul li:first-child{
     /*Modificacion de elementos de la lista de datos personales, primer hijo, el nombre*/
     font-weight: bolder;
     font-size: 20px
 
 }
+
+/* Especificidad: 0,1,4 */
 section:has(picture) ul li:nth-child(3){
     /*Modificacion de elementos de la lista de datos personales, tercer hijo, nacionalidad*/
     font-size: 20px
 }
 
+/* Especificidad: 0,1,4 */
 section:has(picture) ul li:last-child{
     /*Modificacion de elementos de la lista de datos personales, ultimo hijo, el nombre del equipo*/
     font-weight: bolder;
