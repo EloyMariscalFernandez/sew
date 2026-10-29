@@ -1,0 +1,144 @@
+/* ***************************************/
+/*           LaVuelta2026                */
+/*          Estilos layout               */
+/* ***************************************/
+/*    DATOS ESTUDIANTE                   */
+/* --------------------------------------*/
+/*  Nombre y Apellidos: Eloy Mariscal Fernandez*/
+/*  Correo electrónico (uniovi):UO309123@uniovi.es*/
+/*  Grupo de laboratorio:1                */
+/* ***************************************/
+
+section:has(picture){
+    /*Sector de la imagen del ciclista y datos personales del mismo*/
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+section:has(picture) h3{
+    flex-basis: 100%;
+}
+
+section:has(picture) picture{
+    order: 0;
+}
+
+section:has(picture) ul{
+    order:1;
+    list-style: none;
+}
+
+section:has(video){
+    /*Sector de multimedia del ciclista*/
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+section:has(article){
+    /*Modificacion de las fichas de equipo*/
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 1em;
+}
+
+
+section:has(article) h3{
+    grid-column: span 4;
+}
+
+body{
+    /*Estructura general de body*/
+    margin:0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "cabecera"
+    "migas"
+    "contenido"
+    "pie";
+    grid-template-columns: 1fr;
+}
+
+header{
+    /*Especialidad de la cabecera*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: cabecera;
+}
+
+nav{
+    grid-area: migas;
+}
+
+main{
+    grid-area: contenido;
+}
+
+footer{
+    /*Especialidad del pie de pagina*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-area: pie;
+}
+
+table {
+    /*Modificacion visual de la tabla*/
+    border-collapse: collapse;
+    width: auto;
+}
+
+th,
+td {
+    /*añadir las celdas*/
+    border: 1px solid black;
+    padding: 2px 8px;
+}
+
+th {
+    /*Posicionar bien los elementos*/
+    text-align: left;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px){
+
+    header{
+        /* Cabecera en columna */
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header nav{
+        /* Menú debajo del título */
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    nav[aria-label="migas"]{
+         /* Ocultar migas */
+        display: none;
+    }
+
+    
+    section:has(article){
+        /* Cuadrícula de corredores*/
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    section:has(article) h3{
+        /*Título */
+        grid-column: span 2;
+    }
+}
+
+
+

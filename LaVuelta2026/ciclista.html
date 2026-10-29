@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026:Ciclista</title>
+
+    <meta name="author" content="Eloy Mariscal Fernandez" />
+    <meta name="description" content="Documento ciclista del proyecto LaVuelta2026" />
+    
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    
+    <link rel="icon" href="multimedia/favicon.ico" />
+
+    <!--Enlace a las hojas de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><h1>LaVuelta2026</h1></a>
+        <nav>
+            <a href="index.html" title="Inicio de la pagina con informacion general">inicio</a>
+            <a href="ciclista.html" aria-current="page" title="Informacion general de un ciclista en particular">ciclista</a>
+            <a href="equipo.html" title="Informacion general sobre un equipo en paerticular">equipo</a>
+            <a href="etapa.html" title="Informacion especifica de la etapa a tratar">etapa</a>
+            <a href="meteorologia.html" title="Informacion especifica de la meteorologia en la etapa a tratar">meteorologia</a>
+            <a href="clasificaciones.html" title="Informacion general de la clasificacion de los ciclista en esta etapa" >clasificaciones</a>
+            <a href="juegos.html" title="Pagina de juegos de la etapa">juegos</a>
+            <a href="ayuda.html" title="Pagina de ayuda de la web">ayuda</a>
+       </nav>
+   </header>
+
+    <nav aria-label="migas">
+       <ol>
+           <li><a href="index.html">Inicio</a></li>
+           <li>&gt;&gt;</li>
+           <li>Ciclista</li>
+       </ol>
+   </nav>
+
+   <main> 
+   <h2>Gianni Moscon</h2>
+   <section>
+        <h3>Datos personales</h3>
+        <ul>
+            <li>Gianni Moscon</li>
+            <li>20/04/1994</li>
+            <li>Italia</li>
+            <li>RED BULL - BORA - HANSGROHE</li>
+        </ul>
+        <picture>
+            <source media="(max-width: 768px)" srcset="multimedia/Ciclista_Movil.png" width="150" height="227">
+            <source media="(max-width: 1024px)" srcset="multimedia/Ciclista_Tablet.png" width="225" height="341">
+            <img src="multimedia/Ciclista.png" width="300" height="455" alt="Gianni Moscon">
+        </picture>
+   </section>
+   <section>
+        <h3>Datos equipos</h3>
+        <ol>
+            <li>2025 -> RED BULL - BORA - HANSGROHE</li>
+            <li>2022-2023 ->  Astana Qazaqstan Team</li>
+            <li>2021 -> INEOS Grenadiers</li>
+            <li>2020 -> Team INEOS</li>
+            <li>2016-2019 -> Team Sky</li>
+            <li>2014-2015 -> Zalf Euromobil Désirée Fior</li>
+        </ol>
+   </section>
+   <section>
+        <h3>Temporada 2025</h3>
+        <table>
+            <tr>
+                <th id="dato" scope="col">Dato</th>
+                <th id="resultado" scope="col">Resultado</th>
+            </tr>
+            <tr>
+                <td headers="dato">Podiums</td>
+                <td headers="resultado">0</td>
+            </tr>
+
+            <tr>
+                <td headers="dato">Etapas</td>
+                <td headers="resultado">42</td>
+            </tr>
+            <tr>
+                <td headers="dato">Abandonos</td>
+                <td headers="resultado">8</td>
+            </tr>
+            <tr>
+                <td headers="dato">Giro d'Italia</td>
+                <td headers="resultado">121º</td>
+            </tr>
+            <tr>
+                <td headers="dato">Tour de France</td>
+                <td headers="resultado">105º</td>
+            </tr>
+            <tr>
+                <td headers="dato">Descalificaciones</td>
+                <td headers="resultado">1</td>
+            </tr>
+    </table>
+   </section>
+   <section>
+    <h3>Multimedia</h3>
+    <p>Equipo RED BULL - BORA - HANSGROHE en la Vuelta Ciclista a España 2026.  </p>
+    <video controls poster="multimedia/Equipo.png">
+        <source src="multimedia/Presentacion.webm" type="video/webm">
+        <source src="multimedia/Presentacion.mp4" type="video/mp4">
+    </video>
+    <audio controls>
+        <source src="multimedia/Audio.mp3" type="audio/mpeg" />
+        <source src="multimedia/Audio.wav" type="audio/wav" />
+    Su navegador no soporta el elemento audio
+    </audio>
+   </section>
+   
+   </main>
+<footer>
+    <p>Eloy Mariscal Fernandez</p>
+    <address>
+        <a>UO309123@uniovi.es</a>
+    </address>
+   </footer>
+</body>
+</html>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Etapa xmlns="http://www.uniovi.es"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.uniovi.es etapa.xsd">
+    <nombre>Andorra la Vella a Andorra la Vella</nombre>
+    <numero>4</numero>
+    <datosCircuito>
+        <distancia unidades="km">104.8</distancia>
+        <fecha>2026-08-25</fecha>
+        <desnivel unidades="m">2953</desnivel>
+        <tipo>Montaña</tipo>
+        <Empieza>Andorra la Vella</Empieza>
+        <Acaba>Andorra la Vella</Acaba>
+    </datosCircuito>
+    <datosParticipantes>
+        <tiempoGanador>PT2H40M35S</tiempoGanador>
+        <velocidadMedia unidades="km/h">30.157</velocidadMedia>
+        <lideresCarrera>
+            <primero>Tadej Pogacar</primero>
+            <segundo>Jarno Widar</segundo>
+            <tercero>Felix Gall</tercero>
+            <tiempoEntrePrimero-segundo>PT0H2M39S</tiempoEntrePrimero-segundo>
+            <tiempoEntrePrimero-tercero>PT0H2M39S</tiempoEntrePrimero-tercero>
+        </lideresCarrera>
+        <lideresGeneral>
+            <primero>Tadej Pogacar</primero>
+            <segundo>Primož Roglič</segundo>
+            <tercero>Enric Mas</tercero>
+            <tiempoEntrePrimero-segundo>PT0H3M21S</tiempoEntrePrimero-segundo>
+            <tiempoEntrePrimero-tercero>PT0H3M32S</tiempoEntrePrimero-tercero>
+        </lideresGeneral>
+        <lideresEquipos>
+            <primero>UAE Team Emirates XRG </primero>
+            <segundo> Decathlon CMA CGM Team</segundo>
+            <tercero>Team Visma | Lease a Bike</tercero>
+            <tiempoEntrePrimero-segundo>PT0H6M20S</tiempoEntrePrimero-segundo>
+            <tiempoEntrePrimero-tercero>PT0H26M10S</tiempoEntrePrimero-tercero>
+        </lideresEquipos>
+    </datosParticipantes>
+    <ReferenciasLocalidades> <!--Poner que sea solo "foto" "ref" etc -->       
+        <ref>https://es.wikipedia.org/wiki/4.%C2%AA_etapa_de_la_Vuelta_a_Espa%C3%B1a_2026</ref>
+        <ref>https://www.lavuelta.es/es/etapa-4</ref>
+        <ref>https://www.rtve.es/deportes/20260824/vuelta-espana-2026-etapa-4-perfil-recorrido-hora-donde-ver-claves/17170465.shtml</ref>
+    </ReferenciasLocalidades>
+    <fotografias>
+        <foto>recorrido.jpg</foto>
+        <foto>montaña.jpg</foto>
+    </fotografias>
+    <videos>
+        <video>resumen.mp4</video>
+        <video>UltimosKM.mp4</video>
+    </videos>
+    <audios>
+        <audio>entrevista.mp3</audio>
+    </audios>
+    <lugares>
+        <salidaLong unidades="g">1.521750</salidaLong>
+        <salidaLat unidades="g"> 42.505028 </salidaLat>
+        <salidaAlt unidades="m"> 1.014</salidaAlt>
+        <llegadaLong unidades="g"> 1.521750</llegadaLong>
+        <llegadaLat unidades="g"> 42.505028</llegadaLat>
+        <llegadaAlt unidades="m"> 1.014</llegadaAlt>
+    </lugares>
+    <hitos>
+        <puertosMontaña>
+            <categoria1>
+                <montaña>Por D'envalira </montaña>
+                <montañaLong unidades="g">1.719380</montañaLong>
+                <montañaLat unidades="g">42.540180</montañaLat>
+                <montañaAlt unidades="m">2.409</montañaAlt>
+                <montañadist unidades="m">25.1</montañadist>
+                <montaña>Collada de Beixalis </montaña>
+                <montañaLong unidades="g">1.547910</montañaLong>
+                <montañaLat unidades="g">42.527750</montañaLat>
+                <montañaAlt unidades="m">1.803</montañaAlt>
+                <montañadist unidades="m">59.3</montañadist>
+                <montaña>Col de ordino </montaña>
+                <montañaLong unidades="g">1.572205</montañaLong>
+                <montañaLat unidades="g">42.556112</montañaLat>
+                <montañaAlt unidades="m">1.989</montañaAlt>
+                <montañadist unidades="m">78.7</montañadist>
+            </categoria1>
+            <categoria3>
+                <montaña>La coella</montaña>
+                <montañaLong unidades="g">1.531456</montañaLong>
+                <montañaLat unidades="g">42.500705</montañaLat>
+                <montañaAlt unidades="m">1.347</montañaAlt>
+                <montañadist unidades="m">100</montañadist>
+            </categoria3>
+        </puertosMontaña>
+        <Sprints>
+            <intermedios>
+                <sprint>Ordino</sprint>
+                <sprintLong unidades="g">1.533190</sprintLong>
+                <sprintLat unidades="g">42.556230</sprintLat>
+                <sprintAlt unidades="m">1.296</sprintAlt>
+                <sprintdist unidades="m">68.4</sprintdist>
+            </intermedios>
+        </Sprints>
+    </hitos>
+    <puntosAnonimos>
+        <!-- Cambiar los puntos anonimos pa q se vean mejor, altitud dejarla igual-->
+        <punto id="1">
+            <longitud unidades="g">1.574800</longitud>
+            <latitud unidades="g">42.539900</latitud>
+            <altitud unidades="m">1260.000</altitud>
+            <distanciaPunto unidades="km">2.800</distanciaPunto>
+        </punto>
+        <punto id="2">
+            <longitud unidades="g">1.600700</longitud>
+            <latitud unidades="g">42.547800</latitud>
+            <altitud unidades="m">1380.000</altitud>
+            <distanciaPunto unidades="km">4.300</distanciaPunto>
+        </punto>
+        <punto id="3">
+            <longitud unidades="g">1.590640</longitud>
+            <latitud unidades="g">42.553630</latitud>
+            <altitud unidades="m">1479.000</altitud>
+            <distanciaPunto unidades="km">5.100</distanciaPunto>
+        </punto>
+        <punto id="4">
+            <longitud unidades="g">1.593660</longitud>
+            <latitud unidades="g">42.560560</latitud>
+            <altitud unidades="m">1578.000</altitud>
+            <distanciaPunto unidades="km">6.000</distanciaPunto>
+        </punto>
+        <punto id="5">
+            <longitud unidades="g">1.625800</longitud>
+            <latitud unidades="g">42.579700</latitud>
+            <altitud unidades="m">1600.000</altitud>
+            <distanciaPunto unidades="km">10.200</distanciaPunto>
+        </punto>
+        <punto id="6">
+            <longitud unidades="g">1.649700</longitud>
+            <latitud unidades="g">42.580330</latitud>
+            <altitud unidades="m">1710.000</altitud>
+            <distanciaPunto unidades="km">13.200</distanciaPunto>
+        </punto>
+        <punto id="7">
+            <longitud unidades="g">1.658900</longitud>
+            <latitud unidades="g">42.578400</latitud>
+            <altitud unidades="m">1770.000</altitud>
+            <distanciaPunto unidades="km">14.400</distanciaPunto>
+        </punto>
+        <punto id="8">
+            <longitud unidades="g">1.680900</longitud>
+            <latitud unidades="g">42.567800</latitud>
+            <altitud unidades="m">1900.000</altitud>
+            <distanciaPunto unidades="km">18.000</distanciaPunto>
+        </punto>
+        <punto id="9">
+            <longitud unidades="g">1.684900</longitud>
+            <latitud unidades="g">42.559970</latitud>
+            <altitud unidades="m">2003.000</altitud>
+            <distanciaPunto unidades="km">20.200</distanciaPunto>
+        </punto>
+        <punto id="10">
+            <longitud unidades="g">1.701320</longitud>
+            <latitud unidades="g">42.532270</latitud>
+            <altitud unidades="m">2130.000</altitud>
+            <distanciaPunto unidades="km">23.000</distanciaPunto>
+        </punto>
+        <punto id="11">
+            <longitud unidades="g">1.727900</longitud>
+            <latitud unidades="g">42.542300</latitud>
+            <altitud unidades="m">2220.000</altitud>
+            <distanciaPunto unidades="km">27.000</distanciaPunto>
+        </punto>
+        <punto id="12">
+            <longitud unidades="g">1.726000</longitud>
+            <latitud unidades="g">42.537600</latitud>
+            <altitud unidades="m">2010.000</altitud>
+            <distanciaPunto unidades="km">31.100</distanciaPunto>
+        </punto>
+        <punto id="13">
+            <longitud unidades="g">1.707500</longitud>
+            <latitud unidades="g">42.552300</latitud>
+            <altitud unidades="m">1850.000</altitud>
+            <distanciaPunto unidades="km">34.000</distanciaPunto>
+        </punto>
+        <punto id="14">
+            <longitud unidades="g">1.683200</longitud>
+            <latitud unidades="g">42.570800</latitud>
+            <altitud unidades="m">1850.000</altitud>
+            <distanciaPunto unidades="km">36.800</distanciaPunto>
+        </punto>
+        <punto id="15">
+            <longitud unidades="g">1.649700</longitud>
+            <latitud unidades="g">42.580330</latitud>
+            <altitud unidades="m">1710.000</altitud>
+            <distanciaPunto unidades="km">41.000</distanciaPunto>
+        </punto>
+        <punto id="16">
+            <longitud unidades="g">1.658300</longitud>
+            <latitud unidades="g">42.583300</latitud>
+            <altitud unidades="m">1510.000</altitud>
+            <distanciaPunto unidades="km">46.000</distanciaPunto>
+        </punto>
+        <punto id="17">
+            <longitud unidades="g">1.612800</longitud>
+            <latitud unidades="g">42.555400</latitud>
+            <altitud unidades="m">1350.000</altitud>
+            <distanciaPunto unidades="km">48.500</distanciaPunto>
+        </punto>
+        <punto id="18">
+            <longitud unidades="g">1.571900</longitud>
+            <latitud unidades="g">42.532700</latitud>
+            <altitud unidades="m">1280.000</altitud>
+            <distanciaPunto unidades="km">52.100</distanciaPunto>
+        </punto>
+        <punto id="19">
+            <longitud unidades="g">1.562900</longitud>
+            <latitud unidades="g">42.532700</latitud>
+            <altitud unidades="m">1330.000</altitud>
+            <distanciaPunto unidades="km">54.400</distanciaPunto>
+        </punto>
+        <punto id="20">
+            <longitud unidades="g">1.535700</longitud>
+            <latitud unidades="g">42.535300</latitud>
+            <altitud unidades="m">1470.000</altitud>
+            <distanciaPunto unidades="km">63.000</distanciaPunto>
+        </punto>
+        <punto id="21">
+            <longitud unidades="g">1.522820</longitud>
+            <latitud unidades="g">42.543680</latitud>
+            <altitud unidades="m">1296.000</altitud>
+            <distanciaPunto unidades="km">67.000</distanciaPunto>
+        </punto>
+        <punto id="22">
+    <longitud unidades="g">1.546500</longitud>
+    <latitud unidades="g">42.556800</latitud>
+    <altitud unidades="m">1520.000</altitud>
+    <distanciaPunto unidades="km">72.000</distanciaPunto>
+    </punto>
+    <punto id="23">
+        <longitud unidades="g">1.561500</longitud>
+        <latitud unidades="g">42.557500</latitud>
+        <altitud unidades="m">1760.000</altitud>
+        <distanciaPunto unidades="km">75.500</distanciaPunto>
+    </punto>
+    <punto id="24">
+        <longitud unidades="g">1.601800</longitud>
+        <latitud unidades="g">42.570500</latitud>
+        <altitud unidades="m">1750.000</altitud>
+        <distanciaPunto unidades="km">83.000</distanciaPunto>
+    </punto>
+    <punto id="25">
+        <longitud unidades="g">1.637500</longitud>
+        <latitud unidades="g">42.584000</latitud>
+        <altitud unidades="m">1570.000</altitud>
+        <distanciaPunto unidades="km">87.600</distanciaPunto>
+    </punto>
+    <punto id="26">
+        <longitud unidades="g">1.552900</longitud>
+        <latitud unidades="g">42.512500</latitud>
+        <altitud unidades="m">1050.000</altitud>
+        <distanciaPunto unidades="km">94.400</distanciaPunto>
+    </punto>
+    <punto id="27">
+        <longitud unidades="g">1.530600</longitud>
+        <latitud unidades="g">42.503800</latitud>
+        <altitud unidades="m">1110.000</altitud>
+        <distanciaPunto unidades="km">97.300</distanciaPunto>
+    </punto>
+    <punto id="28">
+        <longitud unidades="g">1.538500</longitud>
+        <latitud unidades="g">42.505800</latitud>
+        <altitud unidades="m">1180.000</altitud>
+        <distanciaPunto unidades="km">102.000</distanciaPunto>
+    </punto>
+    <punto id="29">
+        <longitud unidades="g">1.548500</longitud>
+        <latitud unidades="g">42.510900</latitud>
+        <altitud unidades="m">1090.000</altitud>
+        <distanciaPunto unidades="km">103.400</distanciaPunto>
+    </punto>
+    <punto id="30">
+        <longitud unidades="g">1.551500</longitud>
+        <latitud unidades="g">42.512500</latitud>
+        <altitud unidades="m">1060.000</altitud>
+        <distanciaPunto unidades="km">104.400</distanciaPunto>
+    </punto>
+    </puntosAnonimos>
+</Etapa>

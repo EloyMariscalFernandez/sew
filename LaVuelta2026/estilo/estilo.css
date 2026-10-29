@@ -1,0 +1,131 @@
+/* ***************************************/
+/*             LaVuelta2026              */
+/*          Estilos generales            */
+/* ***************************************/
+/*    DATOS ESTUDIANTE                   */
+/* --------------------------------------*/
+/*  Nombre y Apellidos:  Eloy Mariscal Fernandez */
+/*  Correo electrónico (uniovi):UO309123@uniovi.es*/
+/*  Grupo de laboratorio:4               */
+/* ***************************************/
+
+/* Especificidad: 001 */
+body {
+    font-family: "Century Gothic", Arial, sans-serif;
+}
+
+/* --------------------------------------------------
+   GAMA CROMÁTICA Y ESTUDIO DE CONTRASTE (WCAG AAA)
+   --------------------------------------------------
+
+   Color principal: #0B2545
+   Color secundario: #D1C6A3
+   Color blanco: #FFFFFF
+   Color negro: #000000
+
+   Combinaciones:
+
+   - Texto de color secundario sobre fondo de color principal
+     Contraste: 9.02:1 (AAA)
+
+   - Texto de color principal sobre fondo de color secundario
+     Contraste: 9.02:1 (AAA)
+
+   - Texto negro sobre fondo de color secundario
+     Contraste superior a 7:1 (AAA)
+
+   - Texto blanco sobre fondo de color primario
+     Contraste superior a 7:1 (AAA)
+*/
+
+:root {
+    --color-principal: #0B2545;
+    --color-secundario: #D1C6A3;
+    --color-negro: #000000;
+    --color-blanco: #FFFFFF;
+}
+
+/* Especificidad: 0,0,1 */
+body {
+    background-color: var(--color-blanco);
+    color: var(--color-negro);
+}
+
+/* Especificidad: 0,0,1 */
+header, footer {
+    background-color: var(--color-principal);
+    color: var(--color-secundario);
+}
+
+
+/* Especificidad: 0,0,1 */
+nav {
+    background-color: var(--color-principal);
+    color: var(--color-secundario);
+}
+
+
+
+/* Especificidad: 0,0,1 */
+h2,
+h3,
+h4,
+h5 {
+    color: var(--color-negro); /* ADVERTENCIA: color de fondo heredado de
+    body --color-blanco */
+}
+
+
+/* Especificada: 0,0,2 */
+header a, footer a{
+    color: var(--color-blanco); /* ADVERTENCIA: color de fondo heredado de
+    header y footer --color-primario */
+    text-decoration-line: none;
+}
+
+h1{
+    color: var(--color-secundario); /* ADVERTENCIA: color de fondo heredado de
+    header y footer --color-primario */
+}
+
+[aria-current="page"] {
+background-color: var(--color-secundario);
+color: var(--color-principal);
+}
+
+[aria-label="migas"] > ol > li{
+    display: inline;
+}
+[aria-label="migas"] ol{
+    font-size: 13px;
+    list-style-type: none;
+    color:var(--color-blanco); /* ADVERTENCIA: color de fondo heredado de
+    header y footer --color-primario */
+}
+[aria-label="migas"] ol a{
+    color:var(--color-blanco); /* ADVERTENCIA: color de fondo heredado de
+    header y footer --color-primario */
+}
+[aria-label="migas"] li:last-child{
+    font-weight: bolder;
+}
+
+section:has(picture) ul li:first-child{
+    /*Modificacion de elementos de la lista de datos personales, primer hijo, el nombre*/
+    font-weight: bolder;
+    font-size: 20px
+
+}
+section:has(picture) ul li:nth-child(3){
+    /*Modificacion de elementos de la lista de datos personales, tercer hijo, nacionalidad*/
+    font-size: 20px
+}
+
+section:has(picture) ul li:last-child{
+    /*Modificacion de elementos de la lista de datos personales, ultimo hijo, el nombre del equipo*/
+    font-weight: bolder;
+
+}
+
+
+
